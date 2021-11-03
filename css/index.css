@@ -1,0 +1,97 @@
+/*Font style*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+/* Basic layout style*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Container for Display Picture*/
+#index_1 {
+  background-image: url("../images/porter-raab-Ucr4Yp-t364-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+
+#index_1 .container {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/*Navigation Bar*/
+#nav {
+  position: absolute;
+  color: white;
+  width: 100%;
+  top: 0px;
+  /*Navigation Links*/
+}
+
+#nav .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  padding: 2rem;
+}
+
+#nav .navbar-nav .nav-item .nav-link:hover {
+  color: darkblue;
+}
+
+/*About*/
+#About {
+  padding: 2rem;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 0 10px 10px -5px;
+          box-shadow: 0 10px 10px -5px;
+}
+
+#About h3 {
+  font-size: xx-large;
+  font-weight: 900px;
+  padding: 0.8rem;
+}
+
+#About p {
+  font-size: medium;
+  padding: 0.8rem;
+}
+
+#About button {
+  border-radius: 5px;
+  padding: 0.3rem;
+  background: #10a836;
+  border-color: #10a836;
+}
+
+/*Footer*/
+#footer {
+  background-color: #161010;
+  color: white;
+}
+
+#footer h3 {
+  font-size: xx-large;
+  font-weight: 900px;
+  padding: 0.8rem;
+}
+
+#footer h4 {
+  padding: 0.8rem;
+}
+
+#footer .row .col-md-4 ul li {
+  list-style: none;
+}
+/*# sourceMappingURL=index.css.map */
