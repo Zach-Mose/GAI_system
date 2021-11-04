@@ -12,10 +12,10 @@
 
 /*Container for Display Picture*/
 #index_1{
-  background-image: url("../images/porter-raab-Ucr4Yp-t364-unsplash.jpg");
+  background-image: url("../images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 700px;
   width: 100%;
   position: relative;
   top: 0px;
@@ -46,6 +46,10 @@
     & .navbar-nav .nav-item .nav-link:hover {
         color: darkblue;
     }
+
+    & #institution_dropdown{
+        background-color: transparent;
+    }
 }
 
 /*About*/
@@ -72,10 +76,46 @@
     }
 }
 
+
+
+/*Contact*/
+#contact{
+    padding: 10px 10px 20px 10px;
+    
+    & input{
+        width: 60%;
+        position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    & textarea{
+        width: 60%;
+        position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    & button{
+        width: 60%;
+        border-radius: 5px;
+        padding: 0.3rem;
+        background: rgb(16, 168, 54);
+        border-color: rgb(16, 168, 54);
+    }
+
+    & button:hover{
+        box-shadow: solid 4px rgb(16, 168, 54);
+        color: white;
+    }
+}
+
 /*Footer*/
 #footer{
     background-color: rgb(22, 16, 16);
     color: white;
+    padding-top: 20px;
     & h3{
         font-size:xx-large;
         font-weight:900px;
@@ -88,5 +128,13 @@
 
     & .row .col-md-4 ul li{
         list-style: none;
+    }
+    & .row .col-md-4 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    & .row .col-md-4 ul li a:hover{
+        color: rgb(16, 168, 54);
     }
 }

@@ -11,10 +11,10 @@
 
 /*Container for Display Picture*/
 #index_1 {
-  background-image: url("../images/porter-raab-Ucr4Yp-t364-unsplash.jpg");
+  background-image: url("../images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 700px;
   width: 100%;
   position: relative;
   top: 0px;
@@ -49,6 +49,10 @@
   color: darkblue;
 }
 
+#nav #institution_dropdown {
+  background-color: transparent;
+}
+
 /*About*/
 #About {
   padding: 2rem;
@@ -75,10 +79,48 @@
   border-color: #10a836;
 }
 
+/*Contact*/
+#contact {
+  padding: 10px 10px 20px 10px;
+}
+
+#contact input {
+  width: 60%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#contact textarea {
+  width: 60%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#contact button {
+  width: 60%;
+  border-radius: 5px;
+  padding: 0.3rem;
+  background: #10a836;
+  border-color: #10a836;
+}
+
+#contact button:hover {
+  -webkit-box-shadow: solid 4px #10a836;
+          box-shadow: solid 4px #10a836;
+  color: white;
+}
+
 /*Footer*/
 #footer {
   background-color: #161010;
   color: white;
+  padding-top: 20px;
 }
 
 #footer h3 {
@@ -93,5 +135,14 @@
 
 #footer .row .col-md-4 ul li {
   list-style: none;
+}
+
+#footer .row .col-md-4 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .row .col-md-4 ul li a:hover {
+  color: #10a836;
 }
 /*# sourceMappingURL=index.css.map */
